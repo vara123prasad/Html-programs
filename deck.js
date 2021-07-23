@@ -1,8 +1,8 @@
-// program to shuffle the deck of cards
+ // program to shuffle the deck of cards
 
 // declare card elements
 const suits = ["Spades", "Diamonds", "Club", "Heart"];
-const values = [ "Ace","2","3","4","5","6","7","8","9","10","Jack","Queen","King",];
+const values  = [ "Ace","2","3","4","5","6","7","8","9","10","Jack","Queen","King",];
 
 // empty array to contain cards
 let deck = [];
@@ -16,6 +16,7 @@ for (let i = 0; i < suits.length; i++)
         
 		deck.push(card);
     }
+	//...
 }
 console.table(deck)
 
