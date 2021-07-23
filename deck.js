@@ -18,8 +18,10 @@ for (let i = 0; i < suits.length; i++)
     }
 }
 console.table(deck)
+
 // shuffle the cards
-for (let i = deck.length - 1; i > 0; i--) {
+for (let i = deck.length - 1; i > 0; i--) 
+{
     let j = Math.floor(Math.random() * i);
     let temp = deck[i];
     deck[i] = deck[j];
